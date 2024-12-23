@@ -1,0 +1,8 @@
+const path = require('path');
+
+module.exports = {
+  config: path.resolve('sequelize-cli.config.js'), // Pointing to your custom config file
+  modelsPath: path.resolve('api/models'), // Adjust path if necessary
+  migrationsPath: path.resolve('migrations'), // Adjust path if necessary
+  seedersPath: path.resolve('config/seeders'), // Adjust path if necessary
+};
